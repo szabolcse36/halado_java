@@ -20,12 +20,12 @@ public class Konyv implements Serializable {
     private String cim;
 	@Column(name="iro")	
 	private String iro;
-	@Column (name="vasarlas_datuma")
-	private String vasarlas_datuma;
+	@Column (name="felvitel_datuma")
+	private String felvitel_datuma;
 	
 	 
-		public String getVasarlas_datuma() {
-		return vasarlas_datuma;
+		public String getFelvitel_datuma() {
+		return felvitel_datuma;
 	}
 	
 	public int getK_id() {
